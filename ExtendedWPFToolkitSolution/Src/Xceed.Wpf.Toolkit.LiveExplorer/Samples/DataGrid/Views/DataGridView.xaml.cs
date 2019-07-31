@@ -25,6 +25,7 @@ namespace Xceed.Wpf.Toolkit.LiveExplorer.Samples.DataGrid.Views
   {
     public DataGridView()
     {
+      this.DataContext = SampleDataProvider.GetOrders();
       InitializeComponent();
     }
   }
